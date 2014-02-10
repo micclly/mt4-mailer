@@ -11,7 +11,7 @@ Usage (en)
 
 1. Copy MQL4/Include/mail.vbs and MQL4/Include/Mailer.mqh to ``<TERMINAL_DATA_PATH>/MQL4/Include``
    * TERMINAL_DATA_PATH can be opened from MetaEditor
-   * To open the directory, "Open Folder" in "Indicators" directory in Navigator
+   * To open the directory, "Open Folder" on "MQL4" root node in Navigator
 
 2. Change the hard-coded configuration in MQL4/Include/mail.vbs
    * See the comments in the file to see where you should change
@@ -24,7 +24,7 @@ Usage (en)
 
 1. MQL4/Include/mail.vbs と MQL4/Include/Mailer.mqh を ``<TERMINAL_DATA_PATH>/MQL4/Include`` にコピーしてください
    * TERMINAL_DATA_PATH は MetaEditor から開くことができます。
-   * MetaEditor の Navigator ビューから、 Indicators ディレクトリを右クリックし、 "Open Folder" をクリックしてください。
+   * MetaEditor の Navigator ビューから、 ツリー親の MQL4 ディレクトリを右クリックし、 "Open Folder" をクリックしてください。
 
 2. MQL4/Include/mail.vbs にハードコーディングされた設定を変更してください
    * 変更箇所は、VBSファイルのコメントを参照してください。
