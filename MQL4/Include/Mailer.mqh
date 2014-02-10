@@ -8,7 +8,7 @@
 
 void sendMail(string subject, string body)
 {
-    string mailVbs = TerminalInfoString(TERMINAL_DATA_PATH) + "\\MQL4\Include\mail.vbs";
+    string mailVbs = TerminalInfoString(TERMINAL_DATA_PATH) + "\\MQL4\\Include\\mail.vbs";
     ShellExecuteW(0, "Open",
         "wscript.exe",
         "\"" + mailVbs + "\" \"" + subject + "\" \"" + body + "\"",
